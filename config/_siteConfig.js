@@ -9,37 +9,37 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Wohin das Leben ...',
+  tagline: 'Eine Weltreise',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/logo.svg', // 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
-    {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
-    }
+    // {
+    //   name: 'About',
+    //   link: '/about'
+    // },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact'
+    // },
+    // {
+    //   name: 'Categories',
+    //   link: '/categories'
+    // },
+    // {
+    //   name: 'Github Repo',
+    //   link: 'https://github.com/danielkellyio/awake-template',
+    //   target: '_blank'
+    // },
+    // {
+    //   name: 'Awake+ Premium',
+    //   link: 'https://awake-premium-lp.netlify.com/',
+    //   target: '_blank'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -67,8 +67,8 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Newsletter Anmeldung',
+    btnText: 'Anmelden',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
